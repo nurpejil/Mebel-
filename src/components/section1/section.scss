@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1 {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section2 a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: var(--text-main, #212529);
+    font-size: 19px;
+}
+
+.section2 h2 {
+    color: var(--text-main, #212529);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Helvetica;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+    padding-left: 25px;
+    padding-top: 73px;
+}
+
+.section3 {
+    width: 100%;
+    display: block;
+    margin-top:40px;
+    margin-left: 23px;
+}
+
+.section3 p {
+    color: var(--text-main, #212529);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.section3 img {
+    width: 100%;
+    width: 329px;
+    height: 740px;
+    padding-top: 232px;
+}
+
+.section4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.section5 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 40px;
+}
+.section5 img {
+    width: 100%;
+    width: 685px;
+    height: 800px;
+    position: relative;
+    right: 20px;
+}
+.section5 a {
+    color: black;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 25px;
+}
+
+
+@media(max-width:500px) {
+    .logo1 {
+        display: none;
+    }
+
+    .section5 {
+        align-items: start;
+        padding: 24px 20px 0 20px;
+    }
+
+    .section5 img {
+        width: 343px;
+        height: 261px;
+        padding-left: 24px;
+    }
+    .section3 img {
+        width: 100%;
+    }
+
+    .section4 {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .section2 h2 {
+        width: 100%;
+        color: var(--text-main, #212529);
+        font-size: 32px;
+        line-height: 120%;
+    }
+    .section5 a {
+        padding-right: 67%;
+    }
+
+}
